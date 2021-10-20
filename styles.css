@@ -1,0 +1,110 @@
+p {
+    color: eff1f3;
+}
+b{
+    color: eff1f3;
+}
+body{
+    background-image: url(img/cole-patrick-hpCHLFknc2s-unsplash.jpg);
+    background-color: 00a5e0;
+    color: eff1f3;
+    border: 5px solid black;
+}
+table{
+    border: 5px solid black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 223843;
+    border: 5px solid black;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: 00a5e0;
+  }
+  li {
+    border-right: 1px solid #bbb;
+  }
+  li:last-child {
+    border-right: none;
+  }
+h1{
+    font: Verdana;
+    font-size: xx-large;
+    color: eff1f3;
+}
+h2{
+    font: Verdana;
+    font-size:large;
+    color: eff1f3;
+}
+h3{
+    font: Verdana;
+    font-size:medium;
+    color: eff1f3;
+}
+h4{
+    font: Verdana;
+    font-size:medium;
+    color: eff1f3;
+}
+h5{
+    font: Verdana;
+    font-size:medium;
+    color: eff1f3;
+}
+.about{
+    display: flex;
+    height: 600px;
+    padding: 50px;
+}
+.about_image1{
+    flex: 50%;
+    position: relative;
+    text-align: center;
+    background-image: url(img/Portfoliophoto.img.JPG);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_image2{
+    flex: 50%;
+    position: relative;
+    text-align: center;
+    background-image: url(img/IMG_0391.img.JPG);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_image3{
+    flex: 50%;
+    position: relative;
+    text-align: center;
+    background-image: url(img/fakurian-design-hJzSyP1CLMg-unsplash.img.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_content{
+    flex: 50%;
+    position: relative;
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 3rem;
+}
+<!--eff1f3 cultured,223843 gunmetal,00a5e0 cyanprocess-->
